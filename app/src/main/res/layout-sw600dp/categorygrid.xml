@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/categoryscreen1" >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/categoryscreen1"
+        android:scaleType="fitXY"
+        android:src="@drawable/categoryscreen2" />
+
+    <Button
+        android:id="@+id/logoutbtnn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/logout"
+        android:onClick="logoutButtonClicked" />
+
+    <TextView
+        android:id="@+id/txv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Select Category"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/lay01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linlay"
+        android:layout_below="@+id/txv1"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/frame_03" >
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:horizontalSpacing="15dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="30dp" >
+        </GridView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#47B6A4"
+            android:onClick="eventsClick"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:text="Events"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/events1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="#47B6A4"
+            android:onClick="suggestionClick"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:text="Suggestions"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/winners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#47B6A4"
+            android:onClick="winnersClick"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:text="Winners"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/notifbtnn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/logoutbtnn"
+        android:background="@drawable/bell"
+        android:onClick="notificationButtonClicked" />
+
+    <TextView
+        android:id="@+id/notno"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/logoutbtnn"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textColor="#DF0101" />
+
+</RelativeLayout>

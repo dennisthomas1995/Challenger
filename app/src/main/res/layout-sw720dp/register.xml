@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/registerscreen1" >
+
+    <ImageView
+        android:id="@+id/regscrn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/registerscreen1"
+        android:scaleType="fitXY"
+        android:src="@drawable/registerscreen2" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/regscrn2" >
+
+        <ImageView
+            android:id="@+id/regimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/regusernam"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/registerimg" />
+
+        <EditText
+            android:id="@+id/regusernam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regimg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/reg_username"
+            android:hint="User name"
+            android:maxLength="40"
+            android:padding="15dp"
+            android:singleLine="true"
+            android:textSize="20dp" 
+            android:inputType="textCapWords"
+            android:textColor="#000000">
+        </EditText>
+
+        <EditText
+            android:id="@+id/regpswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regusernam"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg_password"
+            android:hint="Password"
+            android:maxLength="40"
+            android:padding="15dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regpswd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reg_password"
+            android:hint="Email"
+            android:maxLength="40"
+            android:padding="20dp"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/regsubbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/email"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/reg_submitbtn"
+            android:gravity="bottom"
+            android:onClick="submitClicked" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/description" >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/categoryscreen1"
+        android:scaleType="fitXY"
+        android:src="@drawable/descriptionheader" />
+    
+    <WebView 
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/img1"
+        android:layout_above="@+id/bttn"
+        android:layout_margin="10dp"
+        
+        />
+    
+    <Button 
+          android:id="@+id/bttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="Buttonclicked"
+        android:background="@drawable/cont"
+        />
+    
+    
+    
+    
+    
+    
+    </RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/level_screen" >
+
+    <ImageView
+        android:id="@+id/levelscrn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/level_screen"
+        android:scaleType="fitXY"
+        android:src="@drawable/levelscreen2" />
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/levelscrn2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/level_03" />
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="ButtonEasyClicked"
+            android:src="@drawable/easy" />
+
+        <ImageView
+            android:id="@+id/Btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Btn1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:onClick="ButtonMediumClicked"
+            android:src="@drawable/medium" />
+
+        <ImageView
+            android:id="@+id/Btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Btn2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="ButtonHardClicked"
+            android:src="@drawable/hard" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginscreen1" >
+
+    <ImageView
+        android:id="@+id/logscn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/loginscreen1"
+        android:scaleType="fitXY"
+        android:src="@drawable/loginscreen2" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logscn2" >
+
+        <ImageView
+            android:id="@+id/logimag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Email"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/loginimg" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logimag"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/username"
+            android:hint="Email"
+            android:maxLength="40"
+            android:padding="15dp"
+            android:singleLine="true"
+            android:textSize="15dp"
+            android:textColor="#000000">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/pswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/password"
+            android:hint="Password"
+            android:maxLength="40"
+            android:padding="15dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/pswd"
+            android:layout_below="@+id/pswd"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/submit"
+            android:gravity="bottom"
+            android:onClick="Submit" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+{
+    "status": "1",
+    "cat_id": "1000",
+    "level_id": "Easy",
+    "questions": [
+        {
+            "qns_id": "10",
+            "qns_text": "1.Which of the following is a non metal that remains liquid at room temperature?",
+            "qns_img": "",
+            "rt_opt": "101",
+            "OPtions": [
+                {
+                    "option": "Phosphorous",
+                    "optionid": "101"
+                },
+                {
+                    "option": "Bromine",
+                    "optionid": "102"
+                },
+                {
+                    "option": "Chlorine",
+                    "optionid": "103"
+                },
+                {
+                    "option": "Helium",
+                    "optionid": "104"
+                }
+            ]
+        },
+        {
+            "qns_id": "11",
+            "qns_text": "2.Grand Central Terminal, Park Avenue, New York is the world's",
+            "qns_img": "",
+            "rt_opt": "101",
+            "OPtions": [
+                {
+                    "option": "largest railway station",
+                    "optionid": "101"
+                },
+                {
+                    "option": "highest railway station",
+                    "optionid": "102"
+                },
+                {
+                    "option": "longest railway station",
+                    "optionid": "103"
+                },
+                {
+                    "option": "None of the above",
+                    "optionid": "104"
+                }
+            ]
+        },
+        {
+            "qns_id": "12",
+            "qns_text": "3.Garampani sanctuary is located at",
+            "qns_img": "",
+            "rt_opt": "102",
+            "OPtions": [
+                {
+                    "option": "Junagarh, Gujarat",
+                    "optionid": "101"
+                },
+                {
+                    "option": "Diphu, Assam",
+                    "optionid": "102"
+                },
+                {
+                    "option": "Kohima, Nagaland",
+                    "optionid": "103"
+                },
+                {
+                    "option": "Gangtok, Sikkim",
+                    "optionid": "104"
+                }
+            ]
+        },
+        {
+            "qns_id": "13",
+            "qns_text": "4.For which of the following disciplines is Nobel Prize awarded?",
+            "qns_img": "",
+            "rt_opt": "104",
+            "OPtions": [
+                {
+                    "option": "Physics and Chemistry",
+                    "optionid": "101"
+                },
+                {
+                    "option": "Physiology or Medicine",
+                    "optionid": "102"
+                },
+                {
+                    "option": "Literature, Peace and Economics",
+                    "optionid": "103"
+                },
+                {
+                    "option": "All of the above",
+                    "optionid": "104"
+                }
+            ]
+        },
+        {
+            "qns_id": "14",
+            "qns_text": "5.Hitler party which came into power in 1933 is known as",
+            "qns_img": "",
+            "rt_opt": "103",
+            "OPtions": [
+                {
+                    "option": "Labour Party",
+                    "optionid": "101"
+                },
+                {
+                    "option": "Ku-Klux-Klan",
+                    "optionid": "102"
+                },
+                {
+                    "option": "Nazi Party",
+                    "optionid": "103"
+                },
+                {
+                    "option": "Democratic Party",
+                    "optionid": "104"
+                }
+            ]
+        }
+    ]
+}

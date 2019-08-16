@@ -1,0 +1,420 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+MERGED from [com.facebook.android:facebook-android-sdk:3.23.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-3.23.1.aar/310b0ae76c18442153585140f8a36da5/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-v4:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc02.aar/e7936e6f9df1fa4171cc107bd1205c09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/358917454ba8ebdb243a23ef5edc5b32/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/f5c088ffe22f59888334e305b89ee53f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.0.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/5389791f327c531c474e6e4518c11815/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/82c96fe449f4cbf0c20ade81e4899193/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/4e93d72facbf9e5d4f1e43489624b814/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/347a354cbd70a53dcc8d4a4a1affa6d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/e883deb1fb7943642480e0d58e4710cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/907874bea844f03196c7a18e48dcbf1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/ddcf038bf1a1406be45dcc543b3a6088/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/ae594622059ed61810c70109c19acf6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/f633d2ca1a608e5762fdbcf855538fef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/f91630c5a99728abdefa35bf25f5ddeb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/92647750f46c1962058d9b98cc7366d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/9a4f3c8c22203f20968a93fa3ca2e01d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/1f445099d55f24653c54798870917459/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e6b1b994ff94db3280e978797e1960fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/29bb599e6ad931392669aa11710d6ec5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/21b3345183fba7f059c63c6e8287861e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/811ce2cf1611ea22942a761d6809adc8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/1d4b60e5f39026aa19661ec9449b2d65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/c3ad31306dada5ad7eea8723fb1e50b7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/80151020ccfc7168ce9d5a442a159ad3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/bbc80f11f1308bbd94b6343def1776c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/bb6669c1920cfd66dbc3fb8389c4161e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/d4ed068ee9865d9fa692b90811bec3bb/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d921133efc3c934ffa571b57869543f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/c88bf93f85731c33d7d6d1fce6392634/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/ca248f43df8432c127e976f48a350dcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/ccbf50bbd9b412a8f22fe2e0dcd92595/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/5c26c2c40256664a5ce8c665c4600e4b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9dcdd94bf012dd38ebad1d41b08f95be/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7a3286f3b49d0df9f71b15236fde8c35/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3763d313935415390261954e57ad9991/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+	package
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:1-156:12
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:11:5-154:19
+MERGED from [com.facebook.android:facebook-android-sdk:3.23.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-3.23.1.aar/310b0ae76c18442153585140f8a36da5/AndroidManifest.xml:24:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:3.23.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-3.23.1.aar/310b0ae76c18442153585140f8a36da5/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/358917454ba8ebdb243a23ef5edc5b32/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/358917454ba8ebdb243a23ef5edc5b32/AndroidManifest.xml:22:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/5389791f327c531c474e6e4518c11815/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/5389791f327c531c474e6e4518c11815/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/82c96fe449f4cbf0c20ade81e4899193/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/82c96fe449f4cbf0c20ade81e4899193/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/c3ad31306dada5ad7eea8723fb1e50b7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/c3ad31306dada5ad7eea8723fb1e50b7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/80151020ccfc7168ce9d5a442a159ad3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/80151020ccfc7168ce9d5a442a159ad3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/d4ed068ee9865d9fa692b90811bec3bb/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/d4ed068ee9865d9fa692b90811bec3bb/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/c3ad31306dada5ad7eea8723fb1e50b7/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:16:9-44
+uses-library#org.apache.http.legacy
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:17:9-19:40
+	android:required
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:18:13-50
+activity#com.reubro.quiz.Splash
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:20:9-30:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:24:13-60
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:21:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:28:27-74
+activity#com.reubro.quiz.Main
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:31:9-36:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:33:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:32:13-48
+activity#com.reubro.quiz.Question
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:37:9-42:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:39:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:41:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:38:13-52
+activity#com.google.ads.AdActivity
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:43:9-45:125
+	android:configChanges
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:45:13-122
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:44:13-53
+activity#com.Version2.CategorygridV2
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:46:9-51:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:48:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:50:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:47:13-55
+activity#com.reubro.quiz.Score
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:52:9-57:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:54:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:53:13-49
+activity#com.Version2.LevelV2
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:58:9-63:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:60:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:62:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:59:13-48
+activity#com.reubro.quiz.LoginV2
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:64:9-69:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:66:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:68:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:65:13-51
+activity#com.reubro.quiz.Level
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:70:9-75:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:72:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:74:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:71:13-49
+activity#com.Version2.RegisterV2
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:76:9-81:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:78:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:80:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:77:13-51
+activity#com.reubro.quiz.Description
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:82:9-87:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:84:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:86:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:83:13-55
+activity#com.Version2.EventListV2
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:88:9-93:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:90:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:92:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:89:13-52
+activity#com.reubro.quiz.EventDetails
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:94:9-99:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:96:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:98:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:95:13-56
+activity#com.reubro.quiz.WinnerList
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:100:9-105:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:102:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:104:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:101:13-54
+activity#com.reubro.quiz.WinnerDetails
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:106:9-111:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:108:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:110:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:107:13-57
+activity#com.Version2.SuggestionV2
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:112:9-117:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:114:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:116:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:113:13-53
+activity#com.reubro.quiz.PieChart1
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:118:9-123:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:120:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:122:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:119:13-53
+activity#com.reubro.quiz.OneTimePassword
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:124:9-129:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:126:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:128:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:125:13-59
+activity#com.reubro.quiz.Notificationlist
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:130:10-135:20
+	android:screenOrientation
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:132:13-45
+	android:theme
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:134:13-66
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:131:13-60
+receiver#com.netconnect.ConnectivityReceiver
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:137:9-143:20
+	android:enabled
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:139:13-35
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:138:13-63
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:140:13-142:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:141:17-79
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:141:25-76
+provider#android.support.v4.content.FileProvider
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:144:9-152:20
+	android:grantUriPermissions
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:148:13-47
+	android:authorities
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:146:13-63
+	android:exported
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:147:13-37
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:145:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:149:13-151:57
+	android:resource
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:151:17-55
+	android:name
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml:150:17-67
+uses-sdk
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.android:facebook-android-sdk:3.23.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-3.23.1.aar/310b0ae76c18442153585140f8a36da5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:facebook-android-sdk:3.23.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-3.23.1.aar/310b0ae76c18442153585140f8a36da5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc02.aar/e7936e6f9df1fa4171cc107bd1205c09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0-rc02.aar/e7936e6f9df1fa4171cc107bd1205c09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/358917454ba8ebdb243a23ef5edc5b32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/358917454ba8ebdb243a23ef5edc5b32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/f5c088ffe22f59888334e305b89ee53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/f5c088ffe22f59888334e305b89ee53f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/5389791f327c531c474e6e4518c11815/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/5389791f327c531c474e6e4518c11815/AndroidManifest.xml:7:5-43
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/82c96fe449f4cbf0c20ade81e4899193/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/82c96fe449f4cbf0c20ade81e4899193/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/4e93d72facbf9e5d4f1e43489624b814/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/4e93d72facbf9e5d4f1e43489624b814/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/347a354cbd70a53dcc8d4a4a1affa6d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/347a354cbd70a53dcc8d4a4a1affa6d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/e883deb1fb7943642480e0d58e4710cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/e883deb1fb7943642480e0d58e4710cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/907874bea844f03196c7a18e48dcbf1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/907874bea844f03196c7a18e48dcbf1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/ddcf038bf1a1406be45dcc543b3a6088/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/ddcf038bf1a1406be45dcc543b3a6088/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/ae594622059ed61810c70109c19acf6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/ae594622059ed61810c70109c19acf6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/f633d2ca1a608e5762fdbcf855538fef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/f633d2ca1a608e5762fdbcf855538fef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/f91630c5a99728abdefa35bf25f5ddeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/f91630c5a99728abdefa35bf25f5ddeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/92647750f46c1962058d9b98cc7366d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/92647750f46c1962058d9b98cc7366d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/9a4f3c8c22203f20968a93fa3ca2e01d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/9a4f3c8c22203f20968a93fa3ca2e01d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/1f445099d55f24653c54798870917459/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/1f445099d55f24653c54798870917459/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e6b1b994ff94db3280e978797e1960fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e6b1b994ff94db3280e978797e1960fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/29bb599e6ad931392669aa11710d6ec5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/29bb599e6ad931392669aa11710d6ec5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/21b3345183fba7f059c63c6e8287861e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/21b3345183fba7f059c63c6e8287861e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/811ce2cf1611ea22942a761d6809adc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/811ce2cf1611ea22942a761d6809adc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/1d4b60e5f39026aa19661ec9449b2d65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0-rc02.aar/1d4b60e5f39026aa19661ec9449b2d65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/c3ad31306dada5ad7eea8723fb1e50b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/c3ad31306dada5ad7eea8723fb1e50b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/80151020ccfc7168ce9d5a442a159ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/80151020ccfc7168ce9d5a442a159ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/bbc80f11f1308bbd94b6343def1776c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/bbc80f11f1308bbd94b6343def1776c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/bb6669c1920cfd66dbc3fb8389c4161e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/bb6669c1920cfd66dbc3fb8389c4161e/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/d4ed068ee9865d9fa692b90811bec3bb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/reubro/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/d4ed068ee9865d9fa692b90811bec3bb/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d921133efc3c934ffa571b57869543f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d921133efc3c934ffa571b57869543f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/c88bf93f85731c33d7d6d1fce6392634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/c88bf93f85731c33d7d6d1fce6392634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/ca248f43df8432c127e976f48a350dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/ca248f43df8432c127e976f48a350dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/ccbf50bbd9b412a8f22fe2e0dcd92595/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/ccbf50bbd9b412a8f22fe2e0dcd92595/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/5c26c2c40256664a5ce8c665c4600e4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/reubro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/5c26c2c40256664a5ce8c665c4600e4b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9dcdd94bf012dd38ebad1d41b08f95be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9dcdd94bf012dd38ebad1d41b08f95be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7a3286f3b49d0df9f71b15236fde8c35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7a3286f3b49d0df9f71b15236fde8c35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3763d313935415390261954e57ad9991/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/reubro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/3763d313935415390261954e57ad9991/AndroidManifest.xml:20:5-44
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		ADDED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/src/main/AndroidManifest.xml

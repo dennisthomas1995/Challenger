@@ -1,0 +1,4 @@
+#Fri Aug 16 17:51:31 IST 2019
+base.0=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/transforms/dexMerger/debug/139
+path.0=classes.dex
+renamed.0=classes.dex

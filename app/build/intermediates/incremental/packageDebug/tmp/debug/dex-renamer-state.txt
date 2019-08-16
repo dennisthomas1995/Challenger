@@ -1,0 +1,13 @@
+#Fri Aug 16 17:51:31 IST 2019
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/transforms/dexMerger/debug/149
+base.2=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/transforms/dexMerger/debug/148
+base.1=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/transforms/dexMerger/debug/150
+base.0=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/transforms/dexMerger/debug/147

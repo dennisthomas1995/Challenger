@@ -1,0 +1,27 @@
+[
+    {
+        "cat_id": "1000",
+        "name": "General Knowledge",
+        "image": "ic_laucher"
+    },
+    {
+        "cat_id": "1001",
+        "name": "Science",
+        "image": "ic_laucher"
+    },
+    {
+        "cat_id": "1002",
+        "name": "English",
+        "image": "ic_laucher"
+    },
+    {
+        "cat_id": "1003",
+        "name": "Maths",
+        "image": "ic_laucher"
+    },
+    {
+        "cat_id": "1004",
+        "name": "Children",
+        "image": "ic_laucher"
+    }
+]

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainscreen" >
+    
+      <ImageView
+        android:id="@+id/mainscrn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/mainscreen"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainscreen2" />
+    
+      <RelativeLayout
+         android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/mainscrn2"   >
+   
+    <ImageView 
+        android:id="@+id/regstbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/registerbtn"
+        android:onClick="registerButtonClicked"/>
+    
+    <ImageView
+        android:id="@+id/loginbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regstbtn1"
+        android:layout_alignLeft="@+id/regstbtn1"
+        android:layout_marginBottom="20dp" 
+        android:src="@drawable/loginbtn"
+        android:onClick="loginButtonClicked"/>
+
+      
+    
+    </RelativeLayout>
+    
+      
+    
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

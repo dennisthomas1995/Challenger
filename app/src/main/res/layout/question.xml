@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/questionscreen1" >
+
+    <ImageView
+        android:id="@+id/img11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/questionscreen2" />
+
+    <RelativeLayout
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/score_03"
+        android:onClick="scoreButtonclicked" >
+
+        <TextView
+            android:id="@+id/scrtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/img22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/img11"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/level"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrolview"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/img22"
+        android:background="@drawable/time"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/qtxtvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrolview"
+        android:layout_below="@+id/img11"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Question Section"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtqns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrolview"
+        android:layout_below="@+id/img11"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/qtxtvw"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrolview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img22" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativenew">
+         <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+         </RelativeLayout>
+         <RelativeLayout 
+            android:id="@+id/rel1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative1" android:layout_marginTop="10dp">
+         </RelativeLayout>
+         <RelativeLayout 
+            android:id="@+id/rel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel1" android:layout_marginTop="10dp">
+         </RelativeLayout>
+         <RelativeLayout
+            android:id="@+id/rel3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel2"
+            android:layout_marginTop="10dp">
+         </RelativeLayout>
+         <RelativeLayout
+            android:id="@+id/rel4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel3"
+            android:layout_marginTop="10dp">
+         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel5"
+            android:layout_below="@id/rel4">
+         <ImageView
+            android:id="@+id/skip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="51dp"
+            android:onClick="skip"
+            android:scaleType="fitXY"
+            android:src="@drawable/skip"
+             android:layout_marginBottom="15dp"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/questionLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1" >
+
+        <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            ads:adSize="BANNER"
+            ads:adUnitId="a15253c68ab3092"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+            android:scaleType="fitXY" >
+        </com.google.ads.AdView>
+    </LinearLayout>
+
+</RelativeLayout>

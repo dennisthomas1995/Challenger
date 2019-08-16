@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/registerscreen1" >
+
+    <ImageView
+        android:id="@+id/regscrn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@drawable/registerscreen1"
+        android:scaleType="fitXY"
+        android:src="@drawable/registerscreen2" />
+
+     <RelativeLayout
+         android:id="@+id/rel1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rel2"
+        android:layout_alignRight="@+id/rel2"
+        android:layout_alignTop="@+id/rel2"
+        android:layout_alignBottom="@+id/rel2"
+        android:background="#ffffff"
+        android:alpha="0.4"
+         >
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regscrn2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/otp_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Please enter your OTP"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/otp_edit"
+            android:layout_below="@+id/otp_tv"
+            android:layout_width="450dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/regsubbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/otp_edit"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:alpha=".7"
+            android:background="@drawable/reg_submitbtn"
+            android:onClick="submitClicked"
+            android:layout_marginBottom="20dp" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

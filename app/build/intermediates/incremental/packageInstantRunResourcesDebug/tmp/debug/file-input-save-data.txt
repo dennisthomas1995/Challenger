@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Aug 14 18:14:26 IST 2019
+1.base=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=CategoryGrid.json
+0.set=ASSET
+0.base=/home/reubro/AndroidStudioProjects/Android Code/Challenger2/app/build/intermediates/assets/debug
+1.path=Category1_Easy.json

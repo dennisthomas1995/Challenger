@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/categoryscreen1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+                android:textColor="#435743"
+                android:text="Submit your Suggestions"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/msgtv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#435743"
+        android:text="Drop your note here, Let us know what we can do to help you" />
+
+    <EditText
+        android:id="@+id/sugname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msgtv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#47B6A4"
+        android:hint="Name*"
+        android:inputType="textCapWords"
+        android:maxLength="40"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textColor="#435743">
+    </EditText>
+
+    <EditText
+        android:id="@+id/sugemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sugname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#47B6A4"
+        android:hint="email*"
+        android:maxLength="40"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="#435743"/>
+
+    <EditText
+        android:id="@+id/sugcomment"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/sugemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#47B6A4"
+        android:hint="enter your comment*"
+        android:maxLength="40"
+        android:padding="20dp"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="#435743"/>
+
+    <Button
+        android:id="@+id/regsubbtn"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/emailtv"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#47B6A4"
+        android:onClick="suggestionClicked"
+        android:text="Submit"
+        android:textColor="#000"/>
+
+</LinearLayout>
